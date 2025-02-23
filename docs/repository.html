@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Repository Details - GitInspired</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+ <div class="logo">GitInspired</div>
+ <div class="search-bar">
+ <input type="text" placeholder="Search...">
+ </div>
+ <nav>
+ <a href="repositories.html">Repositories</a>
+ <a href="developers.html">Developers</a>
+ <a href="explore.html">Explore</a>
+ <a href="pricing.html">Pricing</a>
+ <a href="signin.html" class="btn-text">Sign In</a>
+ <a href="signup.html" class="btn btn-primary">Sign Up</a>
+ </nav>
+ </header>
+
+ <main>
+ <section class="repository-details">
+ <div class="repo-header">
+ <h2 id="repo-name">Repository Name</h2>
+ <p id="repo-description">Description</p>
+ <p>Owner: <span id="repo-owner">Owner</span></p>
+ <button class="btn btn-secondary">Clone</button>
+ <a href="#" class="btn">Repos</a>
+ </div>
+ <div class="repo-tabs">
+ <button class="tab-btn active" data-tab="code">Code</button>
+ <button class="tab-btn" data-tab="issues">Issues</button>
+ <button class="tab-btn" data-tab="pull-requests">Pull Requests</button>
+ <button class="tab-btn" data-tab="projects">Projects</button>
+ </div>
+ <div class="tab-content" id="code">
+ </div>
+ <div class="tab-content" id="issues">
+ </div>
+ <div class="tab-content" id="pull-requests">
+ </div>
+ <div class="tab-content" id="projects">
+ </div>
+ <div class="readme">
+ <h3>README</h3>
+ </div>
+ </section>
+ </main>
+
+ <footer>
+ <p>&copy; 2023 GitInspired. All rights reserved.</p>
+ <nav>
+ <a href="#">About</a>
+ <a href="#">Contact</a>
+ <a href="#">Terms of Service</a>
+ <a href="#">Privacy Policy</a>
+ </nav>
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>

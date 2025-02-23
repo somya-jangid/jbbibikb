@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+.glass-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(25, 25, 25, 0.6);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #c9d1d9;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+nav ul li a:hover {
+    color: #2ea043;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://unsplash.com/photos/a-close-up-of-a-laptop-with-code-on-the-screen-mY2ZHBU6GRk') no-repeat center center/cover;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.cta, .cta-secondary {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.cta {
+    background-color: #238636;
+    color: #c9d1d9;
+}
+.cta-secondary {
+    background-color: #21262d;
+    color: #c9d1d9;
+}
+.cta:hover, .cta-secondary:hover {
+    background-color: #2ea043;
+    transform: scale(1.05);
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+}
+.feature-card {
+    background: rgba(25, 25, 25, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #0d1117;
+    padding: 20px;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+footer ul li a {
+    color: #8b949e;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+footer ul li a:hover {
+    color: #c9d1d9;
+}

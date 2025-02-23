@@ -1,0 +1,12 @@
+{
+  "name": "github-inspired-website",
+  "version": "1.0.0",
+  "description": "A GitHub inspired website with a dark theme and glassmorphism.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

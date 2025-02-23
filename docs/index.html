@@ -3,58 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitInspired</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>GitHub Inspired Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">GitInspired</div>
+    <header class="glass-nav">
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Repositories</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
-        <nav>
-            <a href="repositories.html">Repositories</a>
-            <a href="developers.html">Developers</a>
-            <a href="explore.html">Explore</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="signin.html" class="btn-text">Sign In</a>
-            <a href="signup.html" class="btn btn-primary">Sign Up</a>
-        </nav>
     </header>
-
     <main>
         <section class="hero">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Hero Image" class="hero-image">
-            <div class="hero-content">
-                <h1>Build Better Software, Together</h1>
-                <p>Collaborate, innovate, and create amazing things.</p>
-                <a href="#" class="btn btn-primary">Get Started</a>
+            <h1>Where Developers Collaborate</h1>
+            <p>Join the largest community of developers to discover, share, and build better software.</p>
+            <button class="cta">Get Started</button>
+            <button class="cta-secondary">Explore Repositories</button>
+        </section>
+        <section class="features">
+            <div class="feature-card">
+                <h3>Version Control</h3>
+                <p>Manage your code with ease.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Collaboration Tools</h3>
+                <p>Work together with your team.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Code Review</h3>
+                <p>Ensure code quality with reviews.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Issue Tracking</h3>
+                <p>Track and manage project issues.</p>
             </div>
         </section>
-
-        <section class="featured-repos">
-            <h2>Featured Repositories</h2>
-            <div class="card-container">
-                </div>
-        </section>
-
-        <section class="developer-spotlight">
-            <h2>Developer Spotlight</h2>
-            <div class="card-container">
-               </div>
-        </section>
     </main>
-
     <footer>
-        <p>&copy; 2023 GitInspired. All rights reserved.</p>
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-        </nav>
+        <p>&copy; 2023 GitHub Inspired Website</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </footer>
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
